@@ -35,7 +35,7 @@ RUN cargo install --force --path .
 ###############################################################################
 # RUNTIME ENVIRONMENT
 ###############################################################################
-FROM ubuntu:20.04 as runtime
+FROM ubuntu:groovy-20210416 as runtime
 
 ENV DEBIAN_FRONTEND=noninteractive
 
